@@ -1,0 +1,16 @@
+{
+    "name": "webidea24/magento2-module-widget-price-box",
+    "description": "Magento 2 Module: Widget: Adds a price box for a product",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webidea24\\WidgetProductPrice\\": ""
+        }
+    }
+}
